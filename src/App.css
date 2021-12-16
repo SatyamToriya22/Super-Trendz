@@ -1,0 +1,276 @@
+.head{
+    background-image: url(https://eskipaper.com/images/shape-wallpaper-1.jpg);
+    position: fixed;
+    top: 0px;
+    height: 90px;
+    z-index:2 ;
+}
+.navHead{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 30px;
+    margin-right: 35px;
+}
+.navText{
+    font-size: 18px;
+    font-weight: 650;
+}
+.navText:hover{
+    /* color: black !important; */
+    background-color: black;
+    
+}
+.login{
+    margin-left: 340px !important;
+}
+
+.wishlist-img{
+    width: 20px;
+    height: 20px;
+    /* position: relative; */
+    /* right: -94px; */
+    /* right: 275px; */
+    /* top: -11px; */
+    /* margin-right: 56px !important; */
+}
+
+.profile-img{
+    position: relative;
+    left: 328px;
+    top: 6px;
+}
+.wish-img{
+    position: relative;
+    left: 10px;
+    top: 6px;
+    height: 21px;
+}
+.bag-img{
+    position: relative;
+    right: 5px;
+    top: 6px;
+    height: 19px;
+}
+.bagLength{
+    white-space: nowrap;
+    text-align: center;
+    line-height: 18px;
+    padding: 0 6px;
+    height: 18px;
+    background: #ff3f6c;
+    position: relative;
+    border-radius: 50%;
+    font-size: 12px;
+    color: #fff;
+    left: -72px;
+    top: 1px;
+    font-weight: 700;
+}
+.navsidetext{
+    font-size: 18px;
+    font-weight: 650;
+    position: relative;
+    top: 0px;
+    right: 35px;
+}
+.navsidetext:hover{
+    color: black !important;
+    /* color: black; */
+    
+}
+.slideimg{
+    width:100%;
+}
+.slider{
+    border: 2px solid black;
+    position: relative;
+    top: 35px;
+    
+}
+.menscategory{
+    border:2px solid red;
+    padding:50px;
+}
+
+.mencatprod{
+    margin:20px;
+    float:left
+
+}
+.mencatimg{
+    height: 332px;
+}
+
+.container {
+    text-align: center; /* necesario para la class .center */    
+}
+.container h1{
+    background-color: tomato;
+    font-family: 'Gabriela', serif;
+    padding:5px 0px 5px 0px;
+
+}
+    
+.container:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.left {
+    float: left;
+}
+.center {
+    margin: 0 auto;
+    display: inline-block;
+}
+.right {
+    float: right;
+}
+
+.footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: large;
+    padding: 10px 0px 10px 0px;
+}
+
+.catHead{
+    background-color: white;
+    padding-left: 50px;
+    font-family: 'Lobster', cursive;
+    margin-top: 110px;
+    font-size: xx-large;
+    width: fit-content;
+    padding: 0px 15px 0px 15px;
+    text-align: center;
+    margin-left: 50px;
+    border: 7px solid black;
+}
+
+.catHeadDiv{
+    background-color: black;
+}
+.addCartbtn{
+    background-color: #ff3e6c;
+    border: 0px solid black;
+    padding:10px;
+    font-weight:600;
+    margin:9px;
+}
+.addCartbtn:hover{
+    background-color: white;
+    color:black;
+    border:2px solid black;
+    border-radius: 5px;
+    padding:8px;
+    font-weight:600;
+    
+}
+.removeCartbtn{
+    background-color: tomato;
+    border: 0px solid black;
+    padding:10px;
+    font-weight:600;
+    margin:9px;
+}
+.removeCartbtn:hover{
+    background-color: white;
+    color:black;
+    border:2px solid black;
+    border-radius: 5px;
+    padding:8px;
+    font-weight:600;
+    
+}
+
+.wish{
+    background-color: black;
+    cursor: pointer;
+}
+.wish:hover{
+    background-color:white;
+}
+
+.wish img{
+    height: 30px;
+    padding:2px
+}
+
+.prodImg{
+    border: 5px solid black;
+    border-radius: 4px;
+}
+
+.slideheading h2{
+    font-family: 'Calistoga', cursive;
+    font-weight: lighter;
+}
+
+.prodFont{
+    font-family: 'Baloo Tamma 2', cursive;
+    font-size:21px;
+}
+
+.prodInfo{
+    padding-top:8px;
+}
+.miniCart{
+    border: 2px solid black;
+    position: fixed;
+    right: 0px;
+    top: 90px;
+    padding: 8px;
+    border-radius: 5px;
+    background-color: beige;
+    z-index: 3;
+  }
+  .rightButton{
+      z-index: 1;
+  }
+  .tbhead{
+    padding:14px 27px;
+    color:black;
+    font-family: 'Gabriela', serif;
+  }
+  .tbrow{
+    padding:3px 0px;
+    color:black;
+    font-family: 'Gabriela', serif;
+  }
+  .tbheading{
+    background-color: burlywood;
+  }
+  .tbTotal1{
+    padding:0px 15px;
+    font-family: 'Gabriela', serif;
+  }
+  .tbTotal2{
+    padding:0px 10px;
+    float:right;
+    font-family: 'Gabriela', serif;
+    font-weight: bold;
+  }
+
+  .tbrow img{
+      height: 50px;
+  }
+
+  .content{
+      text-align: center;
+  }
+  .emptyCartHead1{
+    padding-top: 30px;
+    font-size: 29px;
+    text-align: center;
+  }
+  .emptyCartHead2{
+    font-size: 15px;
+    text-align: center;
+    padding: 0px 11px 30px 11px;
+  }
+  .removeWish{
+    cursor: pointer;
+    font-size: x-large;
+    font-weight: bolder;
+
+  }
